@@ -8,7 +8,6 @@ public class TestController {
 
     @GetMapping("/test")
     public String test(){
-        return "This is test page for git-hub feature/testbranch.";
-    }
+        return "This is test page for git-hub feature/testbranch and feature/testbranch1.";
 
 }
